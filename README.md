@@ -128,6 +128,7 @@ Text
 FOLLOW UP
 Write the test cases for this method.(CC150)
 
+**anagrams [√]** - Write a method to decide if two strings are anagrams or not.(CC150)
 
 
 

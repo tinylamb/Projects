@@ -130,6 +130,8 @@ Write the test cases for this method.(CC150)
 
 **anagrams [√]** - Write a method to decide if two strings are anagrams or not.(CC150)
 
+**replace space [√]** - Write a method to replace all spaces in a string with ‘%20’.(CC150)
+
 
 
 Networking

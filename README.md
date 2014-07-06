@@ -78,6 +78,11 @@ Classic Algorithms
 **Sieve of Eratosthenes** - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).
 
 
+**Rotate Matrix [√]** - Given an image represented by an NxN matrix, where each
+    pixel in the image is 4 bytes, write a method to rotate the image by 90
+    degrees. Can you do this in place?(CC 150)
+
+
 Graph
 --------
 

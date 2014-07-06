@@ -43,3 +43,5 @@ nosetests.xml
 # Source code
 Text/*
 !*.c
+ClassicAlgorithms/*
+!*.c

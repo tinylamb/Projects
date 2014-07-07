@@ -43,5 +43,14 @@ nosetests.xml
 # Source code
 Text/*
 !*.c
+!*.py
+
 ClassicAlgorithms/*
 !*.c
+!*.py
+
+Graphics_Multimedia/*
+!*.c
+!*.py
+
+

@@ -82,6 +82,11 @@ Classic Algorithms
     pixel in the image is 4 bytes, write a method to rotate the image by 90
     degrees. Can you do this in place?(CC 150)
 
+**Matrix Set to 0 [√]** - Write an algorithm such that if an element in an MxN matrix
+    is 0, its entire row and column is set to 0.(CC 150)
+
+    
+
 
 Graph
 --------

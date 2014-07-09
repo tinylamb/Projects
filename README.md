@@ -85,6 +85,10 @@ Classic Algorithms
 **Matrix Set to 0 [√]** - Write an algorithm such that if an element in an MxN matrix
     is 0, its entire row and column is set to 0.(CC 150)
 
+**remove duplicate elem in Linked list [√]** - Write code to remove duplicates
+    from an unsorted linked list.  FOLLOW UP How would you solve this problem
+    if a temporary buffer is not allowed?(CC 150)
+
     
 
 

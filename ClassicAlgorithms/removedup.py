@@ -18,7 +18,7 @@ class Linked():
             print h.data,
             h = h.next
         print
-    def addFirst(self,data):
+    def addFirst(self,data): # 在头节点添加Node
         node = Node(data)
         node.next = self.head
         self.head = node

@@ -89,6 +89,8 @@ Classic Algorithms
     from an unsorted linked list.  FOLLOW UP How would you solve this problem
     if a temporary buffer is not allowed?(CC 150)
 
+**find Nth elem to the last [√]** - Implement an algorithm to find the nth to last
+    element of a singly linked list.(CC 150)
     
 
 

@@ -44,13 +44,16 @@ nosetests.xml
 Text/*
 !*.c
 !*.py
+!*.cpp
 
 ClassicAlgorithms/*
 !*.c
 !*.py
+!*.cpp
 
 Graphics_Multimedia/*
 !*.c
 !*.py
+!*.cpp
 
 

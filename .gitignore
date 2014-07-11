@@ -1,7 +1,16 @@
+*
+!*/
+!.gitignore
+!*.[ch]
+!*.cpp
+!*.py
+!makefile
+
 *.py[cod]
 
 # C extensions
 *.so
+*.o
 
 # Packages
 *.egg
@@ -47,13 +56,19 @@ Text/*
 !*.cpp
 
 ClassicAlgorithms/*
-!*.c
-!*.py
-!*.cpp
+#!*.c
+#!*.py
+#!*.cpp
 
 Graphics_Multimedia/*
-!*.c
-!*.py
-!*.cpp
+#!*.c
+#!*.py
+#!*.cpp
 
+Tree_Graph/*
+!Tree_Graph/*/
+#!*.[ch]
+#!*.cpp
+#!*.py
+#!makefile
 

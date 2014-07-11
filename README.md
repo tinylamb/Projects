@@ -94,8 +94,10 @@ Classic Algorithms
     
 
 
-Graph
+Tree and Graph
 --------
+
+**AVL tree [√]** - Implement AVL tree
 
 **Graph from links** - Create a program that will create a graph or network from a series of links.
 

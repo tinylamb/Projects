@@ -49,26 +49,3 @@ nosetests.xml
 
 .DS_Store
 
-# Source code
-Text/*
-!*.c
-!*.py
-!*.cpp
-
-ClassicAlgorithms/*
-#!*.c
-#!*.py
-#!*.cpp
-
-Graphics_Multimedia/*
-#!*.c
-#!*.py
-#!*.cpp
-
-Tree_Graph/*
-!Tree_Graph/*/
-#!*.[ch]
-#!*.cpp
-#!*.py
-#!makefile
-

@@ -31,7 +31,7 @@ struct AdjListNode* newAdjListNode(int dest);//类似c++中的 new 操作
 struct Graph* createGraph(int V);
 void addEdge(struct Graph* graph, int src, int dest);
 void printGraph(struct Graph* graph);
-void tarversal(struct Graph* graph);
+int tarversal(struct Graph* graph);
 void DFT(struct AdjListNode* node, bool* visited);
 struct Graph* createGraph(int V);
 
@@ -40,12 +40,12 @@ int main(){
     int V = 5;
     struct Graph* graph = createGraph(V);
     addEdge(graph, 0, 1);
-    addEdge(graph, 0, 4);
     addEdge(graph, 2, 3);
  
     // print the adjacency list representation of the above graph
 //    printGraph(graph);
-    tarversal(graph);
+    int component = tarversal(graph);
+    printf("components of the graph is %d\n",component);
  
     return 0;
 }
@@ -101,7 +101,8 @@ void printGraph(struct Graph* graph)
 }
 
 
-void tarversal(struct Graph* graph){
+int tarversal(struct Graph* graph){
+    int component = 0;// 连通分支数
     int ver = graph->V;
     //全局的visited 而不是在 struct AdjListNode 中添加 visited 属性
     bool *visited = malloc(sizeof(bool) * ver);
@@ -111,8 +112,10 @@ void tarversal(struct Graph* graph){
     for(int v = 0; v < ver; ++v)
         if(visited[v] == false){
             DFT(graph->array[v].head, visited);
+            ++component;
             printf("\n");
         }
+    return component;
 
 /*  错误的思路 利用visited 属性
  *         if(graph->array[v].head->visited == false){

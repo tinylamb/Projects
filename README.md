@@ -85,7 +85,7 @@ Classic Algorithms
 **find Nth elem to the last [√]** - Implement an algorithm to find the nth to last
     element of a singly linked list.(CC 150)
     
-**Recomendation System [√]** - Implement an easy recsys based on CF
+**User Based Recomendation System [√]** - Implement an easy recsys based on User Based CF
 
 
 Tree and Graph

@@ -87,6 +87,7 @@ Classic Algorithms
     
 **User Based Recomendation System [√]** - Implement an easy recsys based on User Based CF
 
+**Slope One Item Based Recomendation System [√]** - Implement an easy recsys based on [slope one](http://www.serpentine.com/blog/2006/12/12/collaborative-filtering-made-easy/)
 
 Tree and Graph
 --------

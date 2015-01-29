@@ -89,6 +89,8 @@ Classic Algorithms
 
 **Slope One Item Based Recomendation System [√]** - Implement an easy recsys based on [slope one](http://www.serpentine.com/blog/2006/12/12/collaborative-filtering-made-easy/)
 
+**Feature Scaling [√]** - Impelment feature normalization based on (X - Median) / SD_mod
+
 Tree and Graph
 --------
 

@@ -91,6 +91,8 @@ Classic Algorithms
 
 **Feature Scaling [√]** - Impelment feature normalization based on (X - Median) / SD_mod
 
+**Knn in Recsys and Classifier [√]** - Impelment Knn in Recsys
+
 Tree and Graph
 --------
 
